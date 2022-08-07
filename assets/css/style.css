@@ -57,7 +57,7 @@ p {
 /* Images */
 
 img {
-    max-height: 200px;
+    display: block;  
 }
 
 /* Class selectors */
@@ -128,9 +128,7 @@ img {
     font-weight: 200;
 }
 .content-info img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+
 } 
 
 .aside {

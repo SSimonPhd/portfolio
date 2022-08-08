@@ -212,7 +212,7 @@ figcaption {
 @media screen and (max-width: 768px) {
     .header,
     .content {
-      flex-direction: column;
+      width: 100%;
       background-color: lightgreen;
     }
 }

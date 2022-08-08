@@ -115,8 +115,6 @@ figcaption {
 }
 
 .header-box {
-    display: flex;
-    flex-wrap: wrap;
     width: 650px;
 	padding: 50px 50px 75px 100px;
     margin: 50px 50px 20px 600px;
@@ -208,10 +206,13 @@ figcaption {
 @media screen and (max-width: 992px) {
     .header, .content {
     width: 50%;
+    background-color: lightblue;
    }
-
+}
 @media screen and (max-width: 768px) {
     .header,
-    .content
+    .content {
       flex-direction: column;
+      background-color: lightgreen;
     }
+}

@@ -205,6 +205,11 @@ figcaption {
     background-color: #091520;
 }
 
+@media screen and (max-width: 992px) {
+    .header, .content {
+    width: 50%;
+   }
+
 @media screen and (max-width: 768px) {
     .header,
     .content

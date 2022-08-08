@@ -58,10 +58,21 @@ p {
     font-weight: 200;
 }
 
-/* Images */
+/* Figures */
+figure {
+    display:inline-block;
+    margin-left: 35px;
+}
+
+figcaption {
+    color: white;
+    font-weight:600;
+    text-align: center;
+}
+
 /* Class selectors */
 .header {
-    padding: 10px 0px 10px 200px;
+    padding: 10px 0px 10px 250px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #091520;
     color: #ffffff;
@@ -73,7 +84,7 @@ p {
 
 .header nav {
     padding-top: 15px;
-    margin-right: 400px;
+    margin-right: 600px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
@@ -81,8 +92,8 @@ p {
 
 .header nav ul {
     list-style-type: none;
+    text-align: right;
     font-weight: 400;
-
 }
 
 .header nav ul li {
@@ -90,26 +101,26 @@ p {
     margin-left: 25px;
 }
 
- .hero {
-    height: 500px;
-    width: 500px;
-    float: left;
-    margin: 25px 25px 25px 250px;
-    background-image: url("../img/headshot.jpg");
+.hero {
+    position: relative;
+    left: 200px;
+    width: 450px;
+    height: 450px;
+    max-width: 100%;
     background-size: cover;
-    background-position: center;
+    background-image: url(../img/headshot.jpg);
+    margin: 20px;
     border-radius: 10px;
     box-shadow: 4px 4px #1db475;
 }
 
 .header-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 650px;
 	padding: 50px 50px 75px 100px;
-    margin: 100px 350px 20px 0px;
+    margin: 50px 50px 20px 600px;
     border-radius: 10px;
-    vertical-align: top;
-    float: right;
-    width: 40%;
-    height: 250px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color:#091520;
     letter-spacing: 1px;
@@ -150,6 +161,10 @@ p {
     font-weight: 400;
 }
 
+.content-projects img {
+    display: inline-block;
+}
+
 .devicon-linkedin-plain, .devicon-github-original-wordmark {
     font-size: 58px;
     color: white;
@@ -157,6 +172,7 @@ p {
 }
 
 .aside {
+    flex: 1;
 	padding: 40px;
     margin: 20px 300px 20px 0px;
     border-radius: 10px;
@@ -189,7 +205,8 @@ p {
     background-color: #091520;
 }
 
-/* Id selectors */
-/* #id {
-
-}*/
+@media screen and (max-width: 768px) {
+    .header,
+    .content
+      flex-direction: column;
+    }

@@ -60,10 +60,6 @@ p {
 
 /* Images */
 
-img {
-    display: list-item;
-}
-
 /* Class selectors */
 .header {
     padding: 10px 0px 10px 200px;
@@ -143,6 +139,16 @@ img {
     border-radius: 10px;
     background-color: #091520;
     box-shadow: 4px 4px #1db475;
+}
+
+.content-summary p {
+    padding: 0px 20px 20px 20px;
+    font-weight: 400; 
+}
+
+.content-projects p {
+    padding: 0px 20px 20px 20px;
+    font-weight: 400;
 }
 
 .devicon-linkedin-plain, .devicon-github-original-wordmark {

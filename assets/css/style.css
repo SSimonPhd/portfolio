@@ -3,7 +3,6 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-
 }
 
 /* Element selectors */
@@ -72,7 +71,10 @@ figcaption {
 
 /* Class selectors */
 .header {
-    padding: 10px 0px 10px 250px;
+    display: flex;
+    flex-wrap: flex;
+    flex-direction: column;
+    padding: 10px 0px 10px 100px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #091520;
     color: #ffffff;
@@ -102,22 +104,27 @@ figcaption {
 }
 
 .hero {
-    position: relative;
-    left: 200px;
-    width: 450px;
-    height: 450px;
-    max-width: 100%;
+    display: flex;
+    flex-wrap: flex;
+    flex-direction: column;
+    max-width: 350px;
+    max-width: 20%;
     background-size: cover;
     background-image: url(../img/headshot.jpg);
-    margin: 20px;
+    margin: 20px 0px 20px 250px;
     border-radius: 10px;
     box-shadow: 4px 4px #1db475;
 }
 
 .header-box {
-    width: 650px;
-	padding: 50px 50px 75px 100px;
-    margin: 50px 50px 20px 600px;
+    display: flex;
+    flex-wrap: flex;
+    flex-direction: column;
+    float: right;
+    width: 850px;
+    max-width: 80%;
+	padding: 50px 50px 75px 60px;
+    margin: 50px 50px 20px 800px;
     border-radius: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color:#091520;
@@ -135,12 +142,15 @@ figcaption {
 }
 
 .content {
+    display: flex;
+    flex-wrap: flex;
     width: 60%;
     display: inline-block;
     margin-left: 20px;
 }
 
 .content-summary, .content-projects, .content-contact {
+    flex: 1;
     height: 300px;
 	padding: 30px;
     margin: 20px 0px 40px 250px;
@@ -170,7 +180,9 @@ figcaption {
 }
 
 .aside {
-    flex: 1;
+    display: flex;
+    flex-wrap: flex;
+    flex-direction: column;
 	padding: 40px;
     margin: 20px 300px 20px 0px;
     border-radius: 10px;
@@ -185,6 +197,7 @@ figcaption {
 }
 
 .aside-info {
+    flex: 1;
     margin-bottom: 32px;
     color: white;
 }

@@ -6,32 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--<link rel="stylesheet" href="./assets/css/reset.css"> -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <link rel="icon" type="image/png" href="./assets/img/github-icon.png">
     <title>Scott Simon | Portfolio</title>
 </head>
 <body>
-    <nav class="header">
+    <header class="header">
         <h1>Scott<span class="simon">Simon</span></h1>
-        <div>
+        <nav>
             <ul>
                 <li>
-                    <a href="#about">About Me</a>
+                    <a href="#summary">Summary</a>
                 </li>
                 <li>
                     <a href="#projects">Projects</a>
                 </li>
                 <li>
-                    <a href="#contact">Contact Me</a>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
-        </div>
-    </nav>
+        </nav>
+    </header>
+
+    <!--<div class="bg-img" style="background-image: url('assets/img/background.jpg'); height:535px; padding: top 10px;px;">-->
     
-    <div class="hero"></div>
+    <header class="hero"></header>
+
+    <section class="header-box"> 
+        <p><span class="arrow">→</span> Hi, I'm Scott.</p><h2><span class="arrow2">→</span> I write code, it does stuff, I build cools apps that run on the web ;)</h2>
+    </section>
 
     <main class="content">
 
-        <section class="content-info">
+        <section id="summary" class="content-summary">
             <h2>Summary</h2>
             <p>Web developer since 2001, experienced in multiple languages (HTML, CSS, JS, Solidity), tools (Node, JQuery, Bootstrap, React), databases (MySQL, MongoDB) and apps (VS Code, Git, GitHub, Pro Tools, Premiere Pro). <br><br>
 
@@ -52,12 +59,41 @@
             <img align="left" alt="Visual Studio Code" width="46" height="26" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" style="padding-right:10px;"
             />
             <img align="left" alt="Git" width="46" height="26" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" style="padding-right:10px;" />
-            <img align="left" alt="GitHub" width="46" height="26" src="https://user-images.githubusercontent.com/3369400/139447912-e0f43f33-6d9f-45f8-be46-2df5bbc91289.png" style="padding-right:10px;" />
-            <img align="left" alt="Pro Tools" width="46" height="26" src="https://upload.wikimedia.org/wikipedia/commons/4/49/PT2019.png" style="padding-right:10px;" />
+            <img align="left" alt="GitHub" width="38" height="26" src="https://user-images.githubusercontent.com/3369400/139447912-e0f43f33-6d9f-45f8-be46-2df5bbc91289.png" style="padding-right:10px;" />
+            <img align="left" alt="Pro Tools" width="38" height="26" src="https://upload.wikimedia.org/wikipedia/commons/4/49/PT2019.png" style="padding-right:10px;" />
             <img align="left" alt="Premiere Pro" width="46" height="26" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/premierepro/premierepro-original.svg" style="padding-right:10px;" />
 
         </section>
 
+        <section id="projects" class="content-projects">
+            <h2>Projects</h2>
+                    <img align="left" width="120" src="assets/img/power.png"
+                    style="margin-left: 50px;">
+
+                    <img align="left" width="120" src="assets/img/power.png"
+                    style="margin-left: 25px;">
+
+                    <img align="left" width="120" src="assets/img/power.png"
+                    style="margin-left: 25px;">
+
+                    <img align="left" width="120" src="assets/img/power.png"
+                    style="margin-left: 25px;">
+
+                    <img align="left" width="120" src="assets/img/power.png"
+                    style="margin-left: 25px;">
+        </section>
+
+        <section id="contact" class="content-contact">
+            <h2>Contact</h2><br><br>
+
+            <a href="mailto:simon_phd@proton.me"><img align="left" width="46" height="46" src="assets/img/Mail-logo.svg" style="margin-left:50px; margin-right:55px;"></a>
+            
+            <a href="https://www.linkedin.com/in/scottsimon/"
+            target="_blank" title="opens in new tab"><i class="devicon-linkedin-plain colored" style="margin-right:55px;"></i></a> 
+            
+            <a href="https://github.com/SSimonPhd" target="_blank" title="opens in new tab"><i class="devicon-github-original-wordmark"></i></a> 
+        
+        </section>
     </main>
 
     <aside class="aside">
@@ -75,7 +111,7 @@
             <h3>CERTIFICATIONS</h3>
             <p>University of Texas
             Coding Boot Camp
-            January 2023 Austin, TX</p>
+            January 2023 Austin, TX</p><br>
             
             <h3>SKILLS</h3>
             <h4>PROGRAMING</h4>
@@ -95,7 +131,7 @@
 
     <footer class="footer">
         <p>&copy; copyright Scott J. Simon, Ph.D. Valid  <a href="http://jigsaw.w3.org/css-validator/">CSS</a> | <a href="http://validator.w3.org/">HTML</a></p>
-        </p>
+        </h>
     </footer>
 </body>
 </html>

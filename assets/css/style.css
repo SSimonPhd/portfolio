@@ -11,7 +11,6 @@ body {
     background-color: #0f1d2b;
 }
 
-
 /* Links */
 a {
     color: #1db475;
@@ -37,12 +36,15 @@ h2 {
     margin-bottom: 20px;
     font-size: 36px;
     color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
 }
 
 h3 {
     margin-bottom: 10px;
-    text-align: center;
     font-size: 18.5px;
+    color: white;
 }
 
 h4 {
@@ -52,12 +54,14 @@ h4 {
 p {
     font-size: 16px;
     color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
 }
 
 /* Images */
 
 img {
-    display: block;  
+    display: list-item;
 }
 
 /* Class selectors */
@@ -72,7 +76,7 @@ img {
     color: #1db475;
 }
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 400px;
     float: right;
@@ -80,27 +84,50 @@ img {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
     font-weight: 400;
 
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-.hero {
+ .hero {
     height: 500px;
     width: 500px;
-    float: right;
-    margin: 25px 275px 25px 0px;
+    float: left;
+    margin: 25px 25px 25px 250px;
     background-image: url("../img/headshot.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 10px;
     box-shadow: 4px 4px #1db475;
+}
+
+.header-box {
+	padding: 50px 50px 75px 100px;
+    margin: 100px 350px 20px 0px;
+    border-radius: 10px;
+    vertical-align: top;
+    float: right;
+    width: 40%;
+    height: 250px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:#091520;
+    letter-spacing: 1px;
+    line-height: 2.8rem;
+    box-shadow: 4px 4px #1db475;
+}
+
+.header-box .arrow {
+    color: #1db475;
+}
+
+.header-box .arrow2 {
+    color: #1db475;
 }
 
 .content {
@@ -109,39 +136,33 @@ img {
     margin-left: 20px;
 }
 
-.content-info {
-    height: 1000px;
-	padding: 75px;
-    margin: 20px 0px 200px 250px;
+.content-summary, .content-projects, .content-contact {
+    height: 300px;
+	padding: 30px;
+    margin: 20px 0px 40px 250px;
     border-radius: 10px;
     background-color: #091520;
-    letter-spacing: 1px;
+    box-shadow: 4px 4px #1db475;
 }
 
-.content-info h2 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 200;
+.devicon-linkedin-plain, .devicon-github-original-wordmark {
+    font-size: 46px;
+    color: white;
+    margin-right: 20px;
 }
-
-.content-info p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 200;
-}
-/*.content-info img {
-
-} */
 
 .aside {
-	padding: 75px;
+	padding: 40px;
     margin: 20px 300px 20px 0px;
     border-radius: 10px;
     clear: both;
     float: right;
     width: 20%;
-    height: 100%;
+    height: 1000pxS;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color:#091520;
     letter-spacing: 1px;
+    box-shadow: 4px 4px #1db475;
 }
 
 .aside-info {

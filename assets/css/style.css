@@ -72,8 +72,11 @@ figcaption {
 
 /* Class selectors */
 .header {
-    padding: 15px 0px 0px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0px 10px 10px;
     background-color: #091520;
+    justify-content: center; 
 }
 
 .header h1 .simon {
@@ -82,7 +85,7 @@ figcaption {
 
 .header nav {
     text-align: right;
-    margin: 0px 100px 5px 0px;
+    margin-top: 30px;
     font-size: 36px;
     font-weight: 400;
 }
@@ -107,11 +110,11 @@ figcaption {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 1000px;
-    margin: 20px 0px 20px 40px;
+    margin: 20px 20px 20px 40px;
 }
 
 .hero img {
+    margin-right: 35px;
     border-radius: 10px;
     box-shadow: 4px 4px #1db475;
 }
@@ -137,7 +140,7 @@ figcaption {
 }
 
 .content {
-    width: 60%;
+    width: 48%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -146,7 +149,7 @@ figcaption {
 .content-summary, .content-projects, .content-contact {
     width: 780px;
 	padding: 20px 20px 20px 20px;
-    margin: 10px 0px 20px 40px;
+    margin: 10px 0px 20px 0px;
     border-radius: 10px;
     background-color: #091520;
     box-shadow: 4px 4px #1db475;
@@ -177,7 +180,7 @@ figcaption {
     width: 320px;
     height: 800px;
 	padding: 40px 40px 0px 60px;
-    margin: 10px 0px 0px 42px;
+    margin: 10px;
     border-radius: 10px;
     background-color:#091520;
     letter-spacing: 1px;
@@ -185,8 +188,6 @@ figcaption {
 }  
 
 .footer {
-    bottom: 0;
-    left: 0;
     text-align: right;
     padding: 25px 160px 25px 0px;
     background-color: #091520;
@@ -200,7 +201,7 @@ figcaption {
 }
 @media screen and (max-width: 768px) {
     .header, .container, .footer {
-      min-width: 250%;
+      min-width: 200%;
       background-color: lightgreen;
     }
 }

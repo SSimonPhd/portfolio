@@ -3,6 +3,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Element selectors */
@@ -25,7 +26,7 @@ a:hover {
 /* Headers */
 h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 72px;
     font-weight: 200;
     letter-spacing: 5px;
     color:#ffffff;
@@ -35,7 +36,6 @@ h2 {
     margin-bottom: 20px;
     font-size: 36px;
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 200;
     letter-spacing: 1px;
 }
@@ -48,19 +48,20 @@ h3 {
 
 h4 {
     font-size: 16px;
+    padding-left: 10px;
+    color: white;
 }
 
 p {
     font-size: 16px;
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 /* Figures */
 figure {
     display:inline-block;
-    margin-left: 35px;
+    margin-left: 20px;
 }
 
 figcaption {
@@ -71,13 +72,8 @@ figcaption {
 
 /* Class selectors */
 .header {
-    display: flex;
-    flex-wrap: flex;
-    flex-direction: column;
-    padding: 10px 0px 10px 100px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 15px 0px 0px 100px;
     background-color: #091520;
-    color: #ffffff;
 }
 
 .header h1 .simon {
@@ -85,48 +81,47 @@ figcaption {
 }
 
 .header nav {
-    padding-top: 15px;
-    margin-right: 600px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    text-align: right;
+    margin: 0px 100px 5px 0px;
+    font-size: 36px;
+    font-weight: 400;
 }
 
 .header nav ul {
-    list-style-type: none;
-    text-align: right;
-    font-weight: 400;
+    list-style: none;
 }
 
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    padding-bottom: 10px
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
 }
 
 .hero {
     display: flex;
-    flex-wrap: flex;
-    flex-direction: column;
-    max-width: 350px;
-    max-width: 20%;
-    background-size: cover;
-    background-image: url(../img/headshot.jpg);
-    margin: 20px 0px 20px 250px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1000px;
+    margin: 20px 0px 20px 40px;
+}
+
+.hero img {
     border-radius: 10px;
     box-shadow: 4px 4px #1db475;
 }
 
 .header-box {
-    display: flex;
-    flex-wrap: flex;
-    flex-direction: column;
-    float: right;
-    width: 850px;
-    max-width: 80%;
-	padding: 50px 50px 75px 60px;
-    margin: 50px 50px 20px 800px;
+    max-width: 500px;
+    height: 300px;
+	padding: 40px 40px 0px 60px;
+    margin: 40px 50px 0px 50px;
     border-radius: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color:#091520;
     letter-spacing: 1px;
     line-height: 2.8rem;
@@ -142,31 +137,29 @@ figcaption {
 }
 
 .content {
-    display: flex;
-    flex-wrap: flex;
     width: 60%;
-    display: inline-block;
-    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .content-summary, .content-projects, .content-contact {
-    flex: 1;
-    height: 300px;
-	padding: 30px;
-    margin: 20px 0px 40px 250px;
+    width: 780px;
+	padding: 20px 20px 20px 20px;
+    margin: 10px 0px 20px 40px;
     border-radius: 10px;
     background-color: #091520;
     box-shadow: 4px 4px #1db475;
+    font-weight: 400;
+   
 }
 
 .content-summary p {
-    padding: 0px 20px 20px 20px;
-    font-weight: 400; 
+    padding: 0px 50px 0px 20px;
 }
 
 .content-projects p {
-    padding: 0px 20px 25px 20px;
-    font-weight: 400;
+    padding: 0px 50px 30px 20px;
 }
 
 .content-projects img {
@@ -179,53 +172,35 @@ figcaption {
     margin-right: 20px;
 }
 
+
 .aside {
-    display: flex;
-    flex-wrap: flex;
-    flex-direction: column;
-	padding: 40px;
-    margin: 20px 300px 20px 0px;
+    width: 320px;
+    height: 800px;
+	padding: 40px 40px 0px 60px;
+    margin: 10px 0px 0px 42px;
     border-radius: 10px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 1000pxS;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color:#091520;
     letter-spacing: 1px;
     box-shadow: 4px 4px #1db475;
-}
-
-.aside-info {
-    flex: 1;
-    margin-bottom: 32px;
-    color: white;
-}
-
-.aside-info img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} 
+}  
 
 .footer {
-    padding: 25px 250px 25px 0px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    bottom: 0;
+    left: 0;
     text-align: right;
-    color: white;
+    padding: 25px 160px 25px 0px;
     background-color: #091520;
 }
 
 @media screen and (max-width: 992px) {
-    .header, .content {
-    width: 50%;
+    .header, .container, .footer  {
+    min-width: 100%;
     background-color: lightblue;
    }
 }
 @media screen and (max-width: 768px) {
-    .header,
-    .content {
-      width: 100%;
+    .header, .container, .footer {
+      min-width: 250%;
       background-color: lightgreen;
     }
 }

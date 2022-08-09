@@ -21,6 +21,7 @@ a {
 a:hover {
 	background-color: inherit;
 	text-decoration: underline;
+    text-decoration-color:#ffc75f;
 }
 
 /* Headers */
@@ -35,7 +36,7 @@ h1 {
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
-    color: white;
+    color: #ffc75f;
     font-weight: 200;
     letter-spacing: 1px;
 }
@@ -186,6 +187,11 @@ figcaption {
     letter-spacing: 1px;
     box-shadow: 4px 4px #1db475;
 }  
+
+.aside a {
+    font-size: 20px;
+    font-weight: 600;
+}
 
 .footer {
     text-align: right;

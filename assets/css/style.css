@@ -154,8 +154,7 @@ figcaption {
     border-radius: 10px;
     background-color: #091520;
     box-shadow: 4px 4px #1db475;
-    font-weight: 400;
-   
+    font-weight: 400;  
 }
 
 .content-summary p {
@@ -175,7 +174,6 @@ figcaption {
     color: white;
     margin-right: 20px;
 }
-
 
 .aside {
     width: 320px;
@@ -205,6 +203,7 @@ figcaption {
     background-color: lightblue;
    }
 }
+
 @media screen and (max-width: 768px) {
     .header, .container, .footer {
       min-width: 200%;

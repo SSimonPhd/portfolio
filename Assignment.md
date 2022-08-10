@@ -47,6 +47,7 @@ This Challenge is graded based on the following criteria:
 
 Technical Acceptance Criteria: 40%
 Satisfies all of the preceding acceptance criteria.
+
 Deployment: 32%
 Application deployed at live URL.
 
@@ -58,6 +59,7 @@ GitHub repository contains application code.
 
 Application Quality: 15%
 Application resembles the mock-up functionality provided in the Challenge instructions.
+
 Repository Quality: 13%
 Repository has a unique name.
 

@@ -4,7 +4,7 @@ Module 2 challenge assignment:
 
 Coded HTML/CSS from scratch:
 
-1. Designed portfolio webpage with photo, header, nav bar, sections, and sidebar
+1. Designed portfolio webpage with stylesheet, photo, header, nav bar, sections, and sidebar
 2. Added nav links anchors to summary, projects, and connect sections
 3. Added icons and images where appropriate
 4. Added alt tags to images

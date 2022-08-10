@@ -4,18 +4,19 @@ Module 2 challenge assignment:
 
 Coded HTML/CSS from scratch:
 
-1. Designed portfolio wepage with photo, header, and nav bar
+1. Designed portfolio webpage with photo, header, nav bar, sections, and sidebar
 2. Added nav links anchors to summary, projects, and connect sections
 3. Added icons and images where appropriate
 4. Added alt tags to images
-5. Added sidebar with resume link
-6. Added underline hover effect to links
-7. Added media queries for mobile and tablet view ports
-8. Added flex for responsive design
-9. Added icons with active links for email, LinkedIn, and GitHub in comments sections.
-10. Added new tab tooltip to connect icons
-11. Added text lables to project filters
-12. Commented HTML & CSS to indicate changes made
+5. Created dox directory to store resume
+6. Added sidebar with resume link
+7. Added underline hover effect to links
+8. Added media queries for mobile and tablet view ports
+9. Added flex for responsive design
+10. Added icons with active links for email, LinkedIn, and GitHub in comments sections.
+11. Added new tab tooltip to connect icons
+12. Added text labels to project figures
+13. Commented HTML & CSS to indicate changes made
 
 - Screenshot
 

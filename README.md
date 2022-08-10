@@ -20,7 +20,7 @@ Code a portfolio site with HTML/CSS from scratch:
 
 - Screenshot
 
-![image]()
+![image](https://user-images.githubusercontent.com/60651145/183820871-240a2c22-1af3-4b0c-8d78-8523e13edfce.png)
 
 - URL to deployed application:
 

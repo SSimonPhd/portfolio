@@ -13,8 +13,8 @@ Code a portfolio site with HTML/CSS from scratch:
 7. Added underline hover effect to links
 8. Added media queries for mobile and tablet view ports
 9. Added flex for responsive design
-10. Added icons with active links for email, LinkedIn, and GitHub in comments sections.
-11. Added new tab tooltip to connect icons
+10. Added icons with active links for email, LinkedIn, and GitHub in connect sections
+11. Added tooltip to connect icons
 12. Added text labels to project figures
 13. Commented HTML & CSS to indicate changes made
 

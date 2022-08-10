@@ -9,6 +9,7 @@
 /* Element selectors */
 body {
     background-color: #0f1d2b;
+    
 }
 
 /* Links */
@@ -207,6 +208,6 @@ figcaption {
 @media screen and (max-width: 768px) {
     .header, .container, .footer {
       min-width: 200%;
-      background-color: lightgreen;
+        background-color: lightgreen;
     }
 }

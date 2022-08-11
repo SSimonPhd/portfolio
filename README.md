@@ -6,7 +6,7 @@ Code a portfolio site with HTML/CSS from scratch:
 
 1. Designed portfolio webpage with stylesheet, photo, header, nav bar, sections, and sidebar
 
-2. Added nav links anchors to summary, projects, and connect sections
+2. Added nav link anchors to summary, projects, and connect sections
 
 3. Added icons, images, and text where appropriate
 
@@ -22,7 +22,7 @@ Code a portfolio site with HTML/CSS from scratch:
 
 9. Added media queries for responsive screen resize, mobile and tablet viewports
 
-10. Added icons with active links for email, LinkedIn (new tab), and GitHub (new tab) in connect section
+10. Added icons with active links for my ProtonMail, LinkedIn (new tab), and GitHub (new tab) in connect section
 
 11. Added "Opens in new tab" tooltip to connect icons
 

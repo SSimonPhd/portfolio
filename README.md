@@ -22,7 +22,7 @@ Code a portfolio site with HTML/CSS from scratch:
 
 9. Added media queries for responsive screen resize, mobile and tablet viewports
 
-10. Added icons with active links for my Protonmail, LinkedIn (new tab), and GitHub (new tab) in connect section
+10. Added icons with active links for my ProtonMail, LinkedIn (new tab), and GitHub (new tab) in connect section
 
 11. Added "Opens in new tab" tooltip to connect icons
 

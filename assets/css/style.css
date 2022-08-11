@@ -218,7 +218,7 @@ figcaption {
    }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
     .header, .container, .footer {
     min-width: 200vw;
     background-color: lightgreen;

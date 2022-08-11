@@ -36,7 +36,9 @@ Code a portfolio site with HTML/CSS from scratch:
 
 16. Added my Github page link (opens in a new tab) to project icons as a placeholder until my class projects are deployed
 
-17. Commented HTML & CSS to indicate changes made
+17. Added copyright and validator links to footer
+
+18. Commented HTML & CSS to indicate changes made
 
 - Screenshot
 

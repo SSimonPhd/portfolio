@@ -211,6 +211,7 @@ figcaption {
     background-color: #091520;
 }
 
+/* Media queries */
 @media screen and (max-width: 992px) {
     .header, .container, .footer  {
     min-width: 100vw;

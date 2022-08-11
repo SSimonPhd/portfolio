@@ -16,7 +16,7 @@ Code a portfolio site with HTML/CSS from scratch:
 
 6. Added sidebar with resume link
 
-7. Added underline hover effect to links
+7. Added hover psuedo-class underline effect to element links
 
 8. Added flex for responsive design
 
@@ -32,7 +32,7 @@ Code a portfolio site with HTML/CSS from scratch:
 
 14. Added text labels to project icons
 
-15. Added glow box hover effect to project icons
+15. Added hover psuedo-class glow box effect to project icons
 
 16. Added my Github page link (opens in a new tab) to project icons as a placeholder until my class projects are deployed
 

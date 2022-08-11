@@ -17,7 +17,8 @@ Code a portfolio site with HTML/CSS from scratch:
 11. Added tooltip to connect icons
 12. Added text labels to project figures
 13. Added CSS reset file and link
-14. Commented HTML & CSS to indicate changes made
+14. Added border-radius and box-shadow variables to CSS
+15. Commented HTML & CSS to indicate changes made
 
 - Screenshot
 

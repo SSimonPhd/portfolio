@@ -11,14 +11,16 @@ Code a portfolio site with HTML/CSS from scratch:
 5. Created dox directory to store resume
 6. Added sidebar with resume link
 7. Added underline hover effect to links
-8. Added media queries for mobile and tablet view ports
+8. Added media queries for responsive screen resize, mobile and tablet viewports
 9. Added flex for responsive design
 10. Added icons with active links for email, LinkedIn, and GitHub in connect sections
 11. Added tooltip to connect icons
 12. Added text labels to project figures
 13. Added CSS reset file and link
-14. Added border-radius and box-shadow variables to CSS
-15. Commented HTML & CSS to indicate changes made
+14. Added border-radius and box-shadow variables to CSS root
+15. Added glow box hover effect to project icons
+16. Project icons link to my Github repo page (in a new tab) as a placeholder
+17. Commented HTML & CSS to indicate changes made
 
 - Screenshot
 

@@ -173,6 +173,16 @@ figcaption {
     display: inline-block;
 }
 
+.content-projects img:hover {
+    color: #111;
+    background: greenyellow;
+    box-shadow: 0 0 100px greenyellow;
+}
+
+.content-contact a:hover {
+    text-decoration: none;
+}
+
 .devicon-linkedin-plain, .devicon-github-original-wordmark {
     font-size: 58px;
     color: white;

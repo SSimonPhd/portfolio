@@ -1,3 +1,9 @@
+/* Variables */
+:root {
+    --border-radius: 10px;
+    --box-shadow: 4px 4px #1db475;
+}
+
 /* Universal selector */
 *{
     box-sizing: border-box;
@@ -117,8 +123,8 @@ figcaption {
 
 .hero img {
     margin-right: 35px;
-    border-radius: 10px;
-    box-shadow: 4px 4px #1db475;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
 }
 
 .header-box {
@@ -126,11 +132,12 @@ figcaption {
     height: 300px;
 	padding: 40px 40px 0px 60px;
     margin: 40px 50px 0px 50px;
-    border-radius: 10px;
     background-color:#091520;
     letter-spacing: 1px;
     line-height: 2.8rem;
-    box-shadow: 4px 4px #1db475;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+
 }
 
 .header-box .arrow {
@@ -152,10 +159,10 @@ figcaption {
     width: 780px;
 	padding: 20px 20px 20px 20px;
     margin: 10px 0px 20px 0px;
-    border-radius: 10px;
     background-color: #091520;
-    box-shadow: 4px 4px #1db475;
-    font-weight: 400;  
+    font-weight: 400;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);  
 }
 
 .content-summary p {
@@ -181,10 +188,10 @@ figcaption {
     height: 800px;
 	padding: 40px 40px 0px 60px;
     margin: 10px;
-    border-radius: 10px;
     background-color:#091520;
     letter-spacing: 1px;
-    box-shadow: 4px 4px #1db475;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
 }  
 
 .aside a {

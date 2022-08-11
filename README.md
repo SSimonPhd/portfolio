@@ -16,7 +16,8 @@ Code a portfolio site with HTML/CSS from scratch:
 10. Added icons with active links for email, LinkedIn, and GitHub in connect sections
 11. Added tooltip to connect icons
 12. Added text labels to project figures
-13. Commented HTML & CSS to indicate changes made
+13. Added CSS reset file and link
+14. Commented HTML & CSS to indicate changes made
 
 - Screenshot
 

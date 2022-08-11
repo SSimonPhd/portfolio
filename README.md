@@ -6,7 +6,7 @@ Code a portfolio site with HTML/CSS from scratch:
 
 1. Designed portfolio webpage with stylesheet, photo, header, nav bar, sections, and sidebar
 
-2. Added nav links anchors to summary, projects, and connect sections
+2. Added nav link anchors to summary, projects, and connect sections
 
 3. Added icons, images, and text where appropriate
 

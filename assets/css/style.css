@@ -214,14 +214,12 @@ figcaption {
 /* Media queries */
 @media screen and (max-width: 992px) {
     .header, .container, .footer  {
-    min-width: 100vw;
     background-color: lightblue;
    }
 }
 
 @media screen and (max-width: 640px) {
     .header, .container, .footer {
-    min-width: 200vw;
     background-color: lightgreen;
     zoom: .5; 
     }

@@ -53,5 +53,3 @@ https://ssimonphd.github.io/portfolio/
 - URL to GitHub repo:
 
 https://github.com/SSimonPhd/portfolio
-
-test

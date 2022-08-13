@@ -143,6 +143,21 @@ figcaption {
     color: #1db475;
 }
 
+@keyframes cursor-blink {
+    0% {
+      opacity: 0;
+    }
+  }
+  
+  .header-box h2::after {
+    content: "";
+    width: 4px;
+    height: 20px;
+    background: #1db475;
+    display: inline-block;
+    animation: cursor-blink 1.5s steps(2) infinite;
+  }
+
 .content {
     width: 45%;
     display: flex;

@@ -40,6 +40,8 @@ Code a portfolio site with HTML/CSS from scratch:
 
 18. Commented HTML & CSS to indicate changes made
 
+19. Added blinking cursor psuedo-element to header-box (simulates a terminal)
+
 - Screenshot
 
 ![image](https://user-images.githubusercontent.com/60651145/183820871-240a2c22-1af3-4b0c-8d78-8523e13edfce.png)

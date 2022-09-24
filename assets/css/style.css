@@ -165,7 +165,7 @@ figcaption {
     justify-content: center;
 }
 
-.content-summary, .content-projects, .content-contact {
+.content-vignette, .content-works, .content-rapport {
     width: 780px;
 	padding: 20px 20px 20px 20px;
     margin: 10px 0px 20px 0px;
@@ -175,25 +175,25 @@ figcaption {
     box-shadow: var(--box-shadow);  
 }
 
-.content-summary p {
+.content-vignette p {
     padding: 0px 50px 0px 20px;
 }
 
-.content-projects p {
+.content-works p {
     padding: 0px 50px 30px 20px;
 }
 
-.content-projects img {
+.content-works img {
     display: inline-block;
 }
 
-.content-projects img:hover {
+.content-works img:hover {
     color: #111;
     background: greenyellow;
     box-shadow: 0 0 100px greenyellow;
 }
 
-.content-contact a:hover {
+.content-rapport a:hover {
     text-decoration: none;
 }
 

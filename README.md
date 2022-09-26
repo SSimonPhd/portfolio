@@ -1,4 +1,4 @@
-# 02 Portfolio Project test
+# 02 Portfolio Project
 
 Module 2 challenge assignment:
 

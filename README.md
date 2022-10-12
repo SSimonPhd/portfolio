@@ -1,6 +1,4 @@
-# 02 Portfolio Project
-
-Module 2 challenge assignment:
+# Portfolio Project
 
 Code a portfolio site with HTML/CSS from scratch:
 

@@ -22,9 +22,9 @@ a {
 }
 
 a:hover {
-	background-color: inherit;
-	text-decoration: underline;
-    text-decoration-color:#ffc75f;
+		background-color: inherit;
+		text-decoration: underline;
+	  text-decoration-color:#ffc75f;
 }
 
 /* Headers */
@@ -126,7 +126,7 @@ figcaption {
 .header-box {
     max-width: 500px;
     height: 300px;
-	padding: 40px 40px 0px 60px;
+		padding: 40px 40px 0px 60px;
     margin: 40px 50px 0px 50px;
     background-color:#091520;
     letter-spacing: 1px;
@@ -165,7 +165,7 @@ figcaption {
     justify-content: center;
 }
 
-.content-vignette, .content-works, .content-rapport {
+.content-summary, .content-projects, .content-contact {
     width: 780px;
 	padding: 20px 20px 20px 20px;
     margin: 10px 0px 20px 0px;
@@ -175,25 +175,25 @@ figcaption {
     box-shadow: var(--box-shadow);  
 }
 
-.content-vignette p {
+.content-summary p {
     padding: 0px 50px 0px 20px;
 }
 
-.content-works p {
+.content-projects p {
     padding: 0px 50px 30px 20px;
 }
 
-.content-works img {
+.content-projects img {
     display: inline-block;
 }
 
-.content-works img:hover {
+.content-projects img:hover {
     color: #111;
     background: greenyellow;
     box-shadow: 0 0 100px greenyellow;
 }
 
-.content-rapport a:hover {
+.content-contact a:hover {
     text-decoration: none;
 }
 
@@ -206,7 +206,7 @@ figcaption {
 .aside {
     width: 320px;
     height: 800px;
-	padding: 40px 40px 0px 60px;
+		padding: 40px 40px 0px 60px;
     margin: 10px;
     background-color:#091520;
     letter-spacing: 1px;

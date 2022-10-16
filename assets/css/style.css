@@ -60,18 +60,21 @@ p {
     font-size: 16px;
     color: white;
     font-weight: 400;
+		padding: 5px;
 }
 
 /* Figures */
 figure {
     display:inline-block;
-    margin-left: 20px;
+    margin-left: 25px;
+		margin-right: 10px;
 }
 
 figcaption {
     color: white;
     font-weight:600;
     text-align: center;
+		margin-bottom: 20px;
 }
 
 /* Class selectors */
@@ -167,7 +170,7 @@ figcaption {
 
 .content-summary, .content-projects, .content-contact {
     width: 780px;
-	padding: 20px 20px 20px 20px;
+		padding: 20px 20px 20px 20px;
     margin: 10px 0px 20px 0px;
     background-color: #091520;
     font-weight: 400;
@@ -177,10 +180,13 @@ figcaption {
 
 .content-summary p {
     padding: 0px 50px 0px 20px;
+		line-height: 25px;
 }
 
 .content-projects p {
     padding: 0px 50px 30px 20px;
+		line-height: 25px;
+		line: 10px;
 }
 
 .content-projects img {

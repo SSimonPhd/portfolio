@@ -198,6 +198,10 @@ figcaption {
     box-shadow: 0 0 100px greenyellow;
 }
 
+.content-contact {
+		margin-bottom: 50px;
+}
+
 .content-contact a:hover {
     text-decoration: none;
 }

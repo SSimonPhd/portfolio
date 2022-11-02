@@ -218,7 +218,6 @@ figcaption {
 		padding: 40px 40px 0px 60px;
     margin: 10px;
     background-color:#091520;
-    letter-spacing: 1px;
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);
 }  

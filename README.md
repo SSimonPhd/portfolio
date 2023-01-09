@@ -42,7 +42,7 @@ Code a portfolio site with HTML/CSS from scratch:
 
 - Screenshot
 
-![image](https://user-images.githubusercontent.com/60651145/183820871-240a2c22-1af3-4b0c-8d78-8523e13edfce.png)
+![image](https://user-images.githubusercontent.com/60651145/211254002-007dc0ae-d085-45fc-8974-1e7dcac25abf.png)
 
 - URL to deployed application:
 

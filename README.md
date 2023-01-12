@@ -42,7 +42,7 @@ Code a portfolio site with HTML/CSS from scratch:
 
 - Screenshot
 
-![image](https://user-images.githubusercontent.com/60651145/211254002-007dc0ae-d085-45fc-8974-1e7dcac25abf.png)
+![image](https://user-images.githubusercontent.com/60651145/212108416-b5aa397c-15f0-4252-b97b-c4148642d7e4.png)
 
 - URL to deployed application:
 
@@ -50,4 +50,4 @@ https://simonphd.me
 
 - URL to GitHub repo:
 
-https://github.com/SSimonPhd/portfolio
+https://github.com/SSimonPhd/simonphd.me

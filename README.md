@@ -46,7 +46,7 @@ Code a portfolio site with HTML/CSS from scratch:
 
 - URL to deployed application:
 
-https://ssimonphd.github.io/portfolio/
+https://simonphd.me
 
 - URL to GitHub repo:
 
